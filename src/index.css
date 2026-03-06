@@ -1,0 +1,49 @@
+.nav{
+    
+    display: flex;
+    text-align: center;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+    text-size-adjust: 4px;
+    border-radius: 15px;
+    padding: 30px;
+}
+img{
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 350PX;
+    
+
+}
+#intro1{
+    margin-top: 80px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 40px;
+}
+
+ul,li{
+    display: flex;
+    gap: 30px;
+}
+li:hover{
+    color:white;
+}
+
+
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:120px;
+}
+
+.card{
+    width:300px;
+    padding:25px;
+    border-radius:15px;
+    background:cornflowerblue;
+    color:beige;
+    text-align:center;
+}
